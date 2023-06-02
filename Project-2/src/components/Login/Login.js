@@ -11,9 +11,7 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  // useReducer
-
-
+  // 
   // this useEffect runs whenever dependencies change and setform valid and invalid depending on inputs
 
   useEffect(() => {
