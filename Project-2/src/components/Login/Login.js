@@ -12,7 +12,7 @@ const Login = (props) => {
   const [formIsValid, setFormIsValid] = useState(false);
 
   // 
-  // this useEffect runs whenever dependencies change and setform valid and invalid depending on inputs
+  // this useEffect runs whenever dependencies change and set's form valid and invalid depending on inputs
 
   useEffect(() => {
 
