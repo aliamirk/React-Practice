@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useReducer } from "react";
 
 import Card from "../UI/Card/Card";
 import classes from "./Login.module.css";
@@ -11,8 +11,8 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-
-  // this useEffect runs whenever dependencies change and set's form valid and invalid depending on inputs
+  useReducer()
+  // this useEffect runs whenever dependencies change and set's form valid and invalid depending on input
 
   useEffect(() => {
 
