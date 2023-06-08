@@ -11,11 +11,22 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  useReducer()
+  // const emailReducer = (state, action) => {
+  //   if (action.type === 'update'){
+  //     return {...Email}
+  //   }
+  // };
+
+  // const Email = {
+  //   email: "",
+  //   isValid: false,
+  // };
+
+  // const [state, dispatchFn] = useReducer(emailReducer, Email);
+
   // this useEffect runs whenever dependencies change and set's form valid and invalid depending on input
 
   useEffect(() => {
-
     // checks after every 500ms as checking after every key stroke would cause unnecessary load
     // An identifier is used to to use it to clear timeout
 
@@ -29,12 +40,9 @@ const Login = (props) => {
     return () => {
       // this function runs before every effect re-render and clears previous timeout
       console.log("Effect Cleanup");
-      clearInterval(identifier)
-
+      clearInterval(identifier);
     };
   }, [enteredEmail, enteredPassword]);
-
-
 
   const emailChangeHandler = (event) => {
     setEnteredEmail(event.target.value);
