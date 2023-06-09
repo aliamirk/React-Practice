@@ -13,7 +13,6 @@ const Login = (props) => {
 
   // const emailReducer = (state, action) => {
   //   if (action.type === 'update'){
-  //     return {...Email}
   //   }
   // };
 
