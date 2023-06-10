@@ -14,7 +14,7 @@ const Login = (props) => {
   // const emailReducer = (state, action) => {
   //   if (action.type === 'update'){
   //   }
-  // };
+
 
   // const Email = {
   //   email: "",
