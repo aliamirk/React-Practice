@@ -11,9 +11,6 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  // const emailReducer = (state, action) => {
-  //   if (action.type === 'update'){
-  //   }
 
 
   // const Email = {
