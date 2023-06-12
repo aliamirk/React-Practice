@@ -14,8 +14,6 @@ const Login = (props) => {
 
 
   // const Email = {
-  //   email: "",
-  //   isValid: false,
   // };
 
   // const [state, dispatchFn] = useReducer(emailReducer, Email);
