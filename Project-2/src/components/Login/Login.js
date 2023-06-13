@@ -13,9 +13,6 @@ const Login = (props) => {
 
 
 
-  // const Email = {
-  // };
-
   // const [state, dispatchFn] = useReducer(emailReducer, Email);
 
   // this useEffect runs whenever dependencies change and set's form valid and invalid depending on input
